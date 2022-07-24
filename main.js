@@ -15,36 +15,68 @@ const displayDate = () => {
  
 
 // Write a JavaScript program to convert a number to a string.
-
+let number = 14;
+let text = number.toString(); 
+console.log(text);
 
 
 // Write a JavaScript program to convert a string to the number.
-
+let myString = '250' 
+console.log(parseInt(myString))
 
 
 // Write a JavaScript program that takes in different datatypes and prints out whether they are a:
+console.log(typeof);
+
   // * Boolean
+  console.log(typeof true);
+
   // * Null
+
   // * Undefined
+console.log(typeof undeclaredVariable);
   // * Number
+console.log(typeof 42);
   // * NaN
+
   // * String
+  console.log(typeof 'cow moo');
   
 
   
 // Write a JavaScript program that adds 2 numbers together.
-
+let x = 9;
+let y = 2;
+let z = x + y;
+console.log(z);
 
 
 // Write a JavaScript program that runs only when 2 things are true.
+const andTrueTest = (x, y) => {
+  if (x < 88 && y < 5) {console.log("true")}
+  else {console.log("false")}
+}
 
-
+andTrueTest(89, 4)
 
 // Write a JavaScript program that runs when 1 of 2 things are true.
 
+function trueTest(x, y) {
+  if (x > 10 || y < 20) {
+    console.log('yes');}
+ else {console.log('no')}};
 
+trueTest(2, 19)
 
 // Write a JavaScript program that runs when both things are not true.  
+
+const untrueTest = (x, y) => {
+  if (x != 5 && y != 7) {
+    console.log("is true")
+  } else {console.log("not true")}
+}
+
+untrueTest(6, 9)
 
 // ***************************
 //         PART TWO
